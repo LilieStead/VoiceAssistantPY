@@ -39,7 +39,7 @@ def get_best_response(user_input):
     print(f"🔍 Match Confidence: {confidence_score:.2f}")
 
     if confidence_score < 0.55:  # Adjust threshold as needed
-        return "I'm not too sure about your question, try rephrase the qustion!"
+        return "I'm not too sure about your question, try rephrase the question!"
 
     # Retrieve the response from intents.json
     with open("intents.json", "r") as file:
@@ -49,4 +49,4 @@ def get_best_response(user_input):
         if intent["tag"] == best_intent:
             return intent["responses"][0]
 
-    return "I'm not too sure about your question, try rephrase the qustion!"
+    return "I'm not too sure about your question, try rephrase the question!"

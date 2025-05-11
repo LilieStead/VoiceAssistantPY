@@ -35,7 +35,7 @@ class Assistant:
         """Continuously listens for commands, without needing a wake word."""
         with sr.Microphone() as mic:
             self.recognizer.adjust_for_ambient_noise(mic, duration=1)
-            print("🎙 Voice Assistant is always listening...")
+            print("Voice Assistant is always listening...")
 
             while True:
                 try:
@@ -45,21 +45,21 @@ class Assistant:
                     raw_data = audio.get_raw_data()
                     print(f"✔ Raw audio length: {len(raw_data)}")
                     if len(raw_data) == 0:
-                        print("❌ Error: No speech detected.")
+                        print("Error: No speech detected.")
                         continue
 
                     text = self.recognizer.recognize_google(audio).lower().strip()
                     print(f"✔ User said: {text}")
                     self.ui.update_display(f"User: {text}")
 
-                    if text in ["stop assistant", "shutdown"]:
+                    if text in ["stop assistant", "shut down"]:
                         self.ui.root.quit()  # Close Tkinter UI
                         shutdown_assistant()  # Fully terminate script & all processes
 
                         break  # Stops continuous listening
                     else:
                         response = get_best_response(text)  # ML-powered response selection
-                        print(f"✔ Bot response: {response}")
+                        print(f"Bot response: {response}")
                         if response:
                             self.speaker.say(response)
                             self.speaker.runAndWait()
