@@ -1,0 +1,187 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Take care",
+        "Adios"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it",
+        "Thanks a lot",
+        "Thank you very much"
+      ],
+      "responses": [
+        "You're welcome! Happy to help.",
+        "No problem! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "Assistance",
+        "Need help",
+        "I'm stuck",
+        "Can you help"
+      ],
+      "responses": [
+        "Of course! What do you need help with?",
+        "Sure thing! What can I assist you with?"
+      ]
+    },
+    {
+      "tag": "programs",
+      "patterns": [
+        "What programs does Hull offer",
+        "What degrees can I study at Hull",
+        "List of courses at Hull",
+        "Majors at Hull",
+        "Study options at Hull"
+      ],
+      "responses": [
+        "Hull College offers a variety of programs including Business Administration, Computer Science, Nursing, and more.",
+        "Some of the programs available at Hull College are Accounting, Graphic Design, Education, and Psychology."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "Apply",
+        "Admissions",
+        "Enroll",
+        "Application process",
+        "Admission requirements"
+      ],
+      "responses": [
+        "To apply to Hull College, visit our website and fill out the online application form.",
+        "The admissions process at Hull College is straightforward. You can apply online or contact our admissions office for assistance."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Scholarships",
+        "Financial aid",
+        "Grants",
+        "Tuition assistance",
+        "Funding options"
+      ],
+      "responses": [
+        "Yes, Hull College offers various scholarships and financial aid options to eligible students. Check our website for more information.",
+        "There are several scholarship opportunities available at Hull College. Contact our financial aid office to learn more about your options."
+      ]
+    },
+    {
+      "tag": "campus_life",
+      "patterns": [
+        "Campus life at Hull",
+        "Student activities",
+        "Clubs and organizations",
+        "Events on campus",
+        "Extracurricular opportunities",
+        "offer any activities"
+      ],
+      "responses": [
+        "Campus life at Hull College is vibrant and diverse, with numerous student clubs, organizations, and events throughout the year.",
+        "Students at Hull College enjoy a rich campus life with opportunities for involvement in various clubs, sports, and activities."
+      ]
+    },
+    {
+      "tag": "find_business_department",
+      "patterns": [
+        "Business department",
+        "Business",
+        "Business studies",
+        "Where is Business",
+        "Find Business"
+      ],
+      "responses": [
+        "The Business Department is located on the second floor, near the east wing of the building.",
+        "You can find the Business Department by taking the elevator to the second floor and turning left."
+      ]
+    },
+    {
+      "tag": "find_computer_science_department",
+      "patterns": [
+        "Computer science department",
+        "Computer science",
+        "IT department",
+        "Where is Computer Science",
+        "Find Computer Science"
+      ],
+      "responses": [
+        "The Computer Science Department is located on the third floor, in the west wing of the building.",
+        "You can find the Computer Science Department by taking the stairs to the third floor and turning right."
+      ]
+    },
+    {
+      "tag": "find_nursing_department",
+      "patterns": [
+        "Nursing department",
+        "Nursing",
+        "Medical studies",
+        "Where is Nursing",
+        "Find Nursing"
+      ],
+      "responses": [
+        "The Nursing Department is located on the first floor, near the main entrance.",
+        "You can find the Nursing Department by taking the stairs to the first floor and turning left."
+      ]
+    },
+    {
+      "tag": "find_psychology_department",
+      "patterns": [
+        "Psychology department",
+        "Psychology",
+        "Behavioral studies",
+        "Where is Psychology",
+        "Find Psychology"
+      ],
+      "responses": [
+        "The Psychology Department is located on the fourth floor, near the library.",
+        "You can find the Psychology Department by taking the elevator to the fourth floor and turning right."
+      ]
+    },
+    {
+      "tag": "find_education_department",
+      "patterns": [
+        "Education department",
+        "Education",
+        "Teaching studies",
+        "Where is Education",
+        "Find Education"
+      ],
+      "responses": [
+        "The Education Department is located on the third floor, near the west wing of the building.",
+        "You can find the Education Department by taking the stairs to the third floor and turning left."
+      ]
+    }
+  ]
+}
